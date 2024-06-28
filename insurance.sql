@@ -1,3 +1,6 @@
+CREATE DATABASE insurance;
+use insurance;
+
 CREATE TABLE clients (
     client_id INT AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(100),
